@@ -22,16 +22,21 @@ class Person(models.Model):
 
 
 class Todo(models.Model):
-    title = models.CharField(max_length=30)
-    state = models.BooleanField(default=False)
-    description = models.TextField(null=True)
+    title = models.CharField(
+        max_length=30,
+    )
+    state = models.BooleanField(
+        default=False,
+    )
+    description = models.TextField(
+        null=True,
+        blank=True,
+    )
 
     owner = models.ForeignKey(
         Person,
         on_delete=models.CASCADE,
         null=True,
     )
-    categories = models.ManyToManyField(Category)
 
-    def __str__(self):
-        return f'{self.id}: {self.title}'
+    categories = models.ManyToManyField(Category)

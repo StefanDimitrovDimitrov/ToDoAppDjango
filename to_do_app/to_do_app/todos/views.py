@@ -97,19 +97,20 @@ def create_todo(request):
 
 def update_todo(request, pk):
     todo = Todo.objects.get(pk=pk)
-    form = UpdateTodoForm(request.POST, initial=todo)
+    form = UpdateTodoForm(request.POST, todo)
 
     if request.method == 'POST':
         if form.is_valid():
-            todo.title = form.cleaned_data['title'],
-            todo.description = form.cleaned_data['description'],
-            todo.state = False,
+            todo.title = form.cleaned_data['title']
+            todo.description = form.cleaned_data['description']
+            todo.state = form.cleaned_data['state']
             todo.save()
             return redirect('index')
 
     context = {
         'form': form,
     }
+
     return render(request, 'todo_app/edit.html', context)
 
 
