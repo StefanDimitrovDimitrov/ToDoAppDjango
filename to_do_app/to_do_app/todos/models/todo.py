@@ -22,7 +22,7 @@ class Person(models.Model):
 
 
 class Todo(models.Model):
-    text = models.CharField(max_length=30)
+    title = models.CharField(max_length=30)
     state = models.BooleanField(default=False)
     description = models.TextField(null=True)
 
@@ -34,4 +34,4 @@ class Todo(models.Model):
     categories = models.ManyToManyField(Category)
 
     def __str__(self):
-        return f'{self.id}: {self.text}'
+        return f'{self.id}: {self.title}'
