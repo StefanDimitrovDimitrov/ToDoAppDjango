@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/to_do_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../100_Days_Python/100_days_Python/55 -days - Flask Project- Guest_the_Number" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,6 +30,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623750916560</updated>
       <workItem from="1623750917827" duration="14000" />
+      <workItem from="1623769489364" duration="644000" />
     </task>
     <servers />
   </component>
