@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11030f92-9186-4fd3-8b4c-6af49a7b3b14" name="Default Changelist" comment="" />
+    <list default="true" id="11030f92-9186-4fd3-8b4c-6af49a7b3b14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../100_Days_Python/100_days_Python/55 -days - Flask Project- Guest_the_Number" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HTTP_Demo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,6 +33,13 @@
       <updated>1623750916560</updated>
       <workItem from="1623750917827" duration="14000" />
       <workItem from="1623769489364" duration="644000" />
+      <workItem from="1623905246502" duration="686000" />
+      <workItem from="1623930333767" duration="38000" />
+      <workItem from="1623999686018" duration="3000" />
+      <workItem from="1624002858876" duration="600000" />
+      <workItem from="1624101720300" duration="35000" />
+      <workItem from="1624285296926" duration="688000" />
+      <workItem from="1624679084039" duration="1047000" />
     </task>
     <servers />
   </component>
